@@ -1,0 +1,36 @@
+.star-rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.star-rating.small .star {
+    font-size: 0.95rem;
+}
+
+.star {
+    color: #3a3a5a;
+    font-size: 1.4rem;
+    transition: all 0.2s;
+    line-height: 1;
+}
+
+.star.filled {
+    color: #facc15;
+    text-shadow: 0 0 6px rgba(250, 204, 21, 0.4);
+}
+
+.star:not(.readonly) {
+    cursor: pointer;
+}
+
+.star:not(.readonly):hover {
+    transform: scale(1.2);
+}
+
+.rating-value {
+    color: #a1a1b5;
+    font-size: 0.85rem;
+    margin-left: 6px;
+    font-weight: 500;
+}

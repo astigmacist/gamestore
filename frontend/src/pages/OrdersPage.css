@@ -1,0 +1,130 @@
+.orders-page {
+    padding-top: 90px;
+    min-height: 100vh;
+}
+
+.orders-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.orders-container h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.orders-loading {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.orders-empty {
+    text-align: center;
+    padding: 4rem;
+    color: #6b6b8a;
+}
+
+.orders-empty span {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.orders-empty h2 {
+    color: #a1a1b5;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.order-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(139, 92, 246, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.order-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: rgba(139, 92, 246, 0.05);
+    border-bottom: 1px solid rgba(139, 92, 246, 0.08);
+    flex-wrap: wrap;
+}
+
+.order-id {
+    color: #c4b5fd;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.order-date {
+    color: #6b6b8a;
+    font-size: 0.85rem;
+}
+
+.order-status {
+    margin-left: auto;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.order-status.completed {
+    color: #10b981;
+}
+
+.order-items {
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.order-item-img {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.order-item-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: block;
+}
+
+.order-item-qty {
+    color: #6b6b8a;
+    font-size: 0.8rem;
+}
+
+.order-footer {
+    padding: 0.75rem 1.5rem;
+    border-top: 1px solid rgba(139, 92, 246, 0.08);
+    text-align: right;
+}
+
+.order-total {
+    color: #a1a1b5;
+    font-size: 1rem;
+}
+
+.order-total strong {
+    color: #10b981;
+    font-size: 1.2rem;
+}
